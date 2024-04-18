@@ -40,8 +40,8 @@
 
     <!-- android -->
     <platform name="android">
-        <preference name="ANDROID_PLAY_SERVICES_CORE_VERSION" default="1.8.0" />
-        <framework src="com.google.android.play:core:$ANDROID_PLAY_SERVICES_CORE_VERSION" />
+        <preference name="ANDROID_PLAY_SERVICES_REVIEW_VERSION" default="2.0.0" />
+        <framework src="com.google.android.play:review:$ANDROID_PLAY_SERVICES_REVIEW_VERSION" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="LaunchReview">
